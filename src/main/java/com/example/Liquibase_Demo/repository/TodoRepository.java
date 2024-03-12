@@ -9,6 +9,4 @@ import java.util.Optional;
 @Repository
 public interface TodoRepository extends JpaRepository<Todo, Long> {
 
-    @Override
-    Optional<Todo> findById(Long aLong);
 }

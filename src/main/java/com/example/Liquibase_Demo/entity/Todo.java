@@ -23,11 +23,6 @@ public class Todo {
 
     private String details;
 
-    public Todo(String name, String details) {
-        this.name = name;
-        this.details = details;
-    }
-
     @Override
     public String toString() {
         return "Todo{" +
